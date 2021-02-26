@@ -1,12 +1,11 @@
 class Anagram
 
+words = ["ruby", "bury"]
 
-def anagram_antigram(word, word_one)
+def anagram_antigram(word)
   words = word.split('').sort
-  word_sort = words.include?(word_one)
-  
+    
   end
   
 end
 
-words = ["ruby", "bury"]
