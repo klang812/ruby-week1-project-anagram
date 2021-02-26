@@ -6,8 +6,7 @@ class Anagram
     for word in new_word_list do
       if new_word_list.count(word) > 1 
         return true
-      end
-      
+      end  
     end 
     return false
   end

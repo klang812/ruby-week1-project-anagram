@@ -17,4 +17,9 @@ describe('#anagram_antigram') do
     anagram = Anagram.new()
     expect(anagram.anagram_antigram("Ruby bury")).to(eq(true))
   end
+
+  it("take words with no matching letters") do
+    anagram = Anagram.new()
+    expect(anagram.anagram_antigram("hi" "bye")).to(eq(true))
+  end
 end
