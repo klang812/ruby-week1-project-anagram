@@ -10,6 +10,6 @@ describe('#anagram_antigram') do
 
   it("puts words into lower case to match") do
     anagram = Anagram.new()
-    expect(anagram.anagram_antigram("Ruby", "Bury")).to(eq(true))
+    expect(anagram.anagram_antigram("RUBY", "BURY")).to(eq(true))
   end
 end
