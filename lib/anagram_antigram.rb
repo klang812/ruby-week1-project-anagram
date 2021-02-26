@@ -1,11 +1,11 @@
 class Anagram
 
-words = ["ruby", "bury"]
-
 def anagram_antigram(word)
-  words = word.split('').sort
+  word = word.split('').sort
+  new_word = word.include?.join
     
   end
-  
 end
 
+
+words = ["ruby", "bury"]
