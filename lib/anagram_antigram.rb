@@ -1,32 +1,22 @@
 class Anagram
 
-  # def initialize
-  #   @words = words
-    
-  # end
 
-  def anagram_antigram(word1, word2)
-    word_one = word1.split('').sort.join.downcase
-    word_two = word2.split('').sort.join.downcase
-    if word_one == word_two 
-      true
-    else
-      false
-    end
-    
+
+  def anagram_antigram(phrase)
+    word_list = phrase.split(' ')
+    new_word_list = word_list.collect{|x| x.downcase.split('').sort.join}
+    for word in new_word_list do
+      if new_word_list.count(word) > 1
+        puts true
+      else
+        puts false
+      end
       
-    
-  
-end
+    end 
+  end
 end
 
 words = ["ruby", "bury"]
 
 
 
-
-#new_word = word.include?.join
-    # if word.match?(words) do
-    #   true
-    
-    # end 

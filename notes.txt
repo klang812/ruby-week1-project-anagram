@@ -18,9 +18,12 @@
       "These words have no letter matches and are antigrams"
   
   5. multiple words being anagrams or "antigrams"
-    - eliminate spaces and punctuation (\/. , ! " "\)
+    - eliminate spaces and punctuation .match(/\.|,|!|\s/)
     - ???
-
+    - take in 1 string that is separated as words
+      -phrase.split(' ')
+      - list of words
+      for loop
     
 
 
