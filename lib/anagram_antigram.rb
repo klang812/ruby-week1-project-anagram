@@ -1,14 +1,19 @@
 class Anagram
 
   # def initialize
-  #   @word_one = word_one
-  #   @word_two = word_two
+  #   @words = words
+    
   # end
 
   def anagram_antigram(word1, word2)
-    word_one = word1.split('').sort
-    word_two = word2.split('').sort
-    word_one.include?(word_two) 
+    word_one = word1.split('').sort.join
+    word_two = word2.split('').sort.join
+    if word_one == word_two 
+      true
+    else
+      false
+    end
+    
       
     
   
