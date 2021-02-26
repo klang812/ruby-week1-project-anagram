@@ -1,0 +1,26 @@
+1. anagram = 2 words contain exact same letters in different order
+  - split and sort each word to see if they are exact match
+
+2. if words have different cases can still be anagrams
+  - Tea = Eat
+  - .downcase to compare
+
+3. add rule to check if inputs are words
+  - must contain a vowel (a,e,i,o,u)
+  - if no vowels  output = "You need to input actual words!"
+  - if word contains?(a,e,i,o,u) do
+    anagram method
+    else
+    "You need to input actual words?
+
+  4. antigrams = words with no matching letters ("hi", "bye")
+    if word_one_letters !contain? word_two_letters do
+      "These words have no letter matches and are antigrams"
+  
+  5. multiple words being anagrams or "antigrams"
+    - eliminate spaces and punctuation (\/. , ! " "\)
+    - ???
+
+    
+
+
