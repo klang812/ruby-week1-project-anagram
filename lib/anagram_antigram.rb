@@ -8,7 +8,7 @@ class Anagram
         return true
       end  
     end 
-    return false
+    return "These words have no letter matches and are antigrams!"
   end
 end
 
