@@ -20,6 +20,13 @@ describe('#anagram_antigram') do
 
   it("take words with no matching letters") do
     anagram = Anagram.new()
-    expect(anagram.anagram_antigram("hi" "bye")).to(eq("These words have no letter matches and are antigrams!"))
+    expect(anagram.anagram_antigram("hi bye")).to(eq(false))
   end
+
+  it("take words and check for vowels") do
+    anagram = Anagram.new()
+    expect(anagram.anagram_antigram("thb bmkj")).to(eq(true))
+  end
+  
+
 end
