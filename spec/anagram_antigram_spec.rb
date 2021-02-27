@@ -25,7 +25,7 @@ describe('#anagram_antigram') do
 
   it("take words and check for vowels") do
     anagram = Anagram.new()
-    expect(anagram.anagram_antigram("thb bmkj")).to(eq(true))
+    expect(anagram.anagram_antigram("thb bmkj")).to(eq(false))
   end
   
 
