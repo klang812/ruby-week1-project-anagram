@@ -1,56 +1,67 @@
+# Currency Exchange
+
+#### Week 1 Ruby Anagram - created:  2/26/2021
+
+#### By _**Kerry Lang**_
+
+## Technologies Used
+
+* _Ruby 2.6.5_
+* _Bundler 1.17.2_
+* _RSpec 3.10_
+* _pry 0.14.0_
+
+
 ## Description
+_This application with check 2 words, or 2 phrases to see if they are an anagram or antigram.  It will also check to see if the words given are actual words.  Please follow the directions below for installation and setup._
 
-This template repository includes a basic setup for using Docker to run RSpec tests, Pry, and Ruby scripts using Ruby 2.6.5. 
+## Setup/Installation Requirements
 
-To use Docker, you will first need to [install](https://docs.docker.com/get-docker/) it. Once it's installed, Docker should be open so you can actually run Docker commands in the terminal.
+View directly:
+* You can view this directly on my <a href="https://github.com/klang812/ruby-week1-project-anagram" target="_blank">GitHub pages</a>.
 
-## Running IRB
+Requirements:
+* You will need to use your system's **terminal emulator** to setup and use this program.
+* You **must** have `Ruby 2.6.5` installed to be able to run this program ([how to install Ruby 2.6.5](https://www.learnhowtoprogram.com/ruby-and-rails/getting-started-with-ruby/installing-ruby)).
+* `Bundler` is also **required**. *After you install `Ruby`*, it can be installed with the following command.
+  `$ gem install bundler`
 
-You don't need this setup for running IRB (Ruby REPL) by itself. To use IRB on its own, do the following (after Docker is installed and open):
+Download the repo:
+* Go to https://github.com/klang812/ruby-week1-project-anagram.
+* Navigate to and click the green <img src="code.PNG" alt="code" height="20"> button on middle upper right part of webpage.
+* Click on "Download ZIP"
+* Navigate to the downloaded zip and open it.
+* Open the folder inside the zip.
+* Double-click on the HTML file to open it in your default browser.
 
-```
-$ docker pull ruby:2.6.5
-```
+Clone the repo:
+* Go to https://github.com/klang812/currency-exchanger.
+* Navigate to and click the green <img src="code.PNG" alt="code" height="20"> that is near the right edge of the tab bar atop this README.
+* Copy the HTTPs address to your clipboard.
+* Open terminal or bash and navigate to or create a directory into which you will store the entire project on your machine.
+* Once you have switched into your desired directory, in your terminal or command line prompt, enter the following:
+> `$ git clone https://github.com/klang812/ruby-week1-project-anagram` and press <kbd>ENTER</kdb>
+* Change directory into the new root folder of this project
+> `$ cd ruby-week1-project-anagram`
+* Type "code ." into your terminal to launch your default text/code editer at this directory
+> `$ code .`
+* Install all application dependencies using `Bundler`.  This will install all packages listed in the `Gemfile`.
+  `$ bundle install`
 
-This pulls down the image of Ruby we use at Epicodus. You only need to do this once.
+Testing:
+* This is a testing project utilizing Test-Driven Development (TDD).
+* Using the test command `$ rspec` you will be able to test the program yourself and verify its functionality.
 
-Once you have it on your machine, you can run IRB with the following command:
+## Known Bugs
 
-```
-$ docker run -it ruby:2.6.5 irb
-```
+* _None at this time_
 
-We recommend creating an alias (called something like `dirb` for Docker IRB) to make the command easier to use.
 
-You can exit IRB as normal by typing `exit`.
+## License
+_GPL_
 
-## Using This Repository for Docker
+Copyright (c) 2021 **_Kerry Lang_**
 
-This repository is a template repository. To use it, start by creating a new repository with `ruby-rspec-docker-container` as a template. Clone that repository down to your desktop.
-
-The repository contains a simple project that tests a simple `title_case` method. To run tests on the current code, simply run the command `docker-compose up` in the root directory of this project.
-
-To run tests on your own code, replace the `lib` and `spec` directories with your own source code (for `lib`) and tests (for `spec`).
-
-We recommend creating an alias for the following commands. The alias should look something like this:
-
-```
-dspec ()
-{
-  docker-compose down
-  docker-compose up --build
-  docker-compose run --rm app
-}
-```
-
-With this alias, the `dspec` command will automatically run RSpec tests. You can use `binding.pry` as needed.
-
-### Running Scripts
-
-Running scripts is optional at Epicodus. However, if you want to experiment with it, follow these steps:
-
-* The script must be located in `lib` and be called `script.rb`.
-
-* Run the following command: `docker-compose run --rm app ruby lib/script.rb`.
-
-Once again, we recommend aliasing this command if you plan to run scripts often. If you prefer to name your script something else, you just need to update the command to use the correct path and file name.
+## Contact Information
+* Reach Kerry: via <a href="https://www.linkedin.com/in/klang812/" target="_blank">LinkedIn</a> or <a href="mailto:klang812@gmail.com" target="_blank">Email</a>.<br>
+Checkout Kerry's <a href="https://github.com/klang812" target="_blank">GitHub profile</a>.</li>
