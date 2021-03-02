@@ -35,7 +35,7 @@ Download the repo:
 * Double-click on the HTML file to open it in your default browser.
 
 Clone the repo:
-* Go to https://github.com/klang812/currency-exchanger.
+* Go to https://github.com/klang812/ruby-week1-project-anagram.
 * Navigate to and click the green <img src="code.PNG" alt="code" height="20"> that is near the right edge of the tab bar atop this README.
 * Copy the HTTPs address to your clipboard.
 * Open terminal or bash and navigate to or create a directory into which you will store the entire project on your machine.

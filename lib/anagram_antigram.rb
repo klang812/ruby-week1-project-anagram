@@ -4,7 +4,7 @@ class Anagram
     word_list = phrase.split(' ')
     new_word_list = word_list.collect{|x| x.downcase.gsub(/\.|,|!|\s/,"").split('').sort.join}
     for word in new_word_list do
-      letters = word.match(/[aeiou]/) 
+      letters = word.match(/[aeiou]/)         
       if letters.nil?
         return "These words have no vowels!"
         end
